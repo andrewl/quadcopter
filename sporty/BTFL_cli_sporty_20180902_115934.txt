@@ -1,0 +1,37 @@
+
+# diff all
+# Betaflight / OMNIBUS (OMNI) 3.3.1 Apr  3 2018 / 09:54:28 (4b7eaf79d) MSP API: 1.37
+defaults nosave
+name sporty
+
+feature MOTOR_STOP
+aux 0 0 1 1875 2075 0
+aux 1 1 1 1875 2100 0
+aux 2 3 0 1875 2100 0
+set motor_pwm_protocol = DSHOT600
+set failsafe_delay = 2
+set failsafe_procedure = AUTO-LAND
+set align_board_roll = 180
+set align_board_pitch = 180
+profile 0
+
+profile 1
+
+profile 2
+
+profile 0
+rateprofile 0
+
+rateprofile 1
+
+rateprofile 2
+
+rateprofile 3
+
+rateprofile 4
+
+rateprofile 5
+
+rateprofile 0
+save
+# 
